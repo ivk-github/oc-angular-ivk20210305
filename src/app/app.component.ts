@@ -9,6 +9,7 @@ export class AppComponent {
 
   title = 'oc-angular-ivk20210305';
   isAuth = false;
+  lastUpdate = new Date();
 
   /*
   appareilOne = 'Machine à laver';
