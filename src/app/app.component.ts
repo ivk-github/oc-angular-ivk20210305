@@ -10,6 +10,10 @@ export class AppComponent {
   title = 'oc-angular-ivk20210305';
   isAuth = false;
 
+  appareilOne = 'Machine à laver';
+  appareilTwo = 'Frigo';
+  appareilThree = 'Ordinateur';
+
   constructor() {
     setTimeout(
       () => {
