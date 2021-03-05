@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   title = 'oc-angular-ivk20210305';
   isAuth = false;
 
@@ -15,6 +16,10 @@ export class AppComponent {
         this.isAuth = true;
       }, 4000
     );
+  }
+
+  onAllumer() {
+    console.log('On allume tout !');
   }
 
 }
